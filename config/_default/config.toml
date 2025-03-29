@@ -1,0 +1,7 @@
+baseURL = 'https://ra-226.github.io/'
+languageCode = 'en-us'
+theme = 'blowfish'
+
+
+[params]
+  customCSS = ["css/custom.css"]
