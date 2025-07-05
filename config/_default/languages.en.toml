@@ -20,7 +20,7 @@ title = "Ra-226"
 [params.author]
   name = "Ra-226"
   email = "youremail@example.com"
-  image = "img/image.jpg"
+  image = "img/sky.jpg"
   imageQuality = 96
   headline = "I'm only human"
   bio = "A little bit about you"

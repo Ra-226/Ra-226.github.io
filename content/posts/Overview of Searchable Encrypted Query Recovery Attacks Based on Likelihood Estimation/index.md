@@ -163,7 +163,7 @@ $$
 $$
 \mathbf{P} = \underset{\mathbf{P} \in \mathcal{P}}{\mathop{\text{argmin}}} \, \text{ tr}(\mathbf{P}^{T}((1 - \alpha)\mathbf{C}\_v + \alpha \mathbf{C}\_f))
 $$
-![](feature.png)
+![](pattern.png)
 
 如图 2所示，现有4个关键字包含在8个文档中，其相应访问模式如图所示，攻击者观察到3个查询令牌，并获取到相应Volume模式，为方便起见，示例未使用非索引文档，不失一般性，攻击者对观察到的Volume模式和辅助关键字的Volume模式按照式(12)构造似然权重矩阵，这里仅以Volume模式为例，即\\(\alpha =0\\)，求解每个观察令牌对应的关键字的最小化代价，通过匈牙利算法解决该指派问题，结果如图 2右侧所示，对应关系为\\({{t\}_{2}}\to {{w}\_{2}},{{t}\_{1}}\to {{w}\_{1}},{{t}\_{4}}\to {{w}\_{4}}\\)，恢复正确。
 
