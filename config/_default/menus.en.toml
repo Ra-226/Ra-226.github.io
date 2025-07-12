@@ -61,7 +61,7 @@
   pre = "github"
   name = "GitHub"
   url = "https://github.com/Ra-226"
-  weight = 30
+  weight = 40
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
